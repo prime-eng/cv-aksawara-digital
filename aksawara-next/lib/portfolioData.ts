@@ -116,8 +116,7 @@ export const portfolioData: PortfolioProject[] = [
       {
         src: "/img/portfolio/gambar2.jpeg",
         alt: "Dashboard Utama",
-        caption:
-          "Dashboard Utama yang memantau Transaksi dan Manajemen Stok",
+        caption: "Dashboard Utama yang memantau Transaksi dan Manajemen Stok",
       },
       {
         src: "/img/portfolio/gambar3.jpeg",
@@ -143,8 +142,7 @@ export const portfolioData: PortfolioProject[] = [
       {
         src: "/img/portfolio/gambar7.jpeg",
         alt: "Halaman Manajemen Pengguna",
-        caption:
-          "Manajemen Pengguna untuk mengatur registrasi karyawan",
+        caption: "Manajemen Pengguna untuk mengatur registrasi karyawan",
       },
       {
         src: "/img/portfolio/gambar8.jpeg",
@@ -168,9 +166,9 @@ export const portfolioData: PortfolioProject[] = [
   {
     id: "3",
     slug: "landing-page-startup",
-    title: "Landing Page Startup Tech",
+    title: "Monday Management Toko dan Gudang",
     client: "TechStart Inc.",
-    year: "2023",
+    year: "2025",
     technologies: ["React", "Framer Motion", "Tailwind CSS"],
     description:
       "Landing page modern dengan animasi menarik untuk startup teknologi yang ingin meningkatkan konversi.",
@@ -178,20 +176,46 @@ export const portfolioData: PortfolioProject[] = [
       "Membuat animasi yang smooth tanpa mengorbankan performa loading page.",
     results:
       "Conversion rate meningkat 25% dalam 2 bulan dengan bounce rate menurun drastis.",
-    thumbnail: "/img/portfolio/web2.jpg",
+    thumbnail:
+      "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar1.jpeg",
     images: [
       {
-        src: "/img/portfolio/web2.jpg",
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar1.jpeg",
         alt: "Landing page",
         caption: "Hero section dengan animasi yang menarik",
       },
       {
-        src: "/img/portfolio/web2-detail1.jpg",
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar2.jpeg",
+        alt: "Fitur produk",
+        caption: "Section fitur produk yang informatif",
+      },
+      {
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar3.jpeg",
+        alt: "Fitur produk",
+        caption: "Section fitur produk yang informatif",
+      },
+      {
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar4.jpeg",
+        alt: "Fitur produk",
+        caption: "Section fitur produk yang informatif",
+      },
+      {
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar5.jpeg",
+        alt: "Fitur produk",
+        caption: "Section fitur produk yang informatif",
+      },
+      {
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar6.jpeg",
+        alt: "Fitur produk",
+        caption: "Section fitur produk yang informatif",
+      },
+      {
+        src: "/img/portfolio/aplikasi-monday-management toko-dan-gudang/gambar7.jpeg",
         alt: "Fitur produk",
         caption: "Section fitur produk yang informatif",
       },
     ],
-    category: "Landing Page",
+    category: "Merchant",
   },
   {
     id: "4",
