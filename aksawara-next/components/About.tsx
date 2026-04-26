@@ -74,20 +74,11 @@ export default function About() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             className="relative h-80 md:h-auto overflow-hidden">
-            {/* DARK MODE LOGO */}
             <Image
               src="/img/logo-dark.png"
               alt="Aksawara Digital Team"
               fill
-              className="object-cover hidden dark:block"
-            />
-
-            {/* LIGHT MODE LOGO */}
-            <Image
-              src="/img/logo-light.png"
-              alt="Aksawara Digital Team"
-              fill
-              className="object-cover block dark:hidden"
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent" />
           </motion.div>
@@ -199,7 +190,7 @@ export default function About() {
                 name: "Restu Adam Wiguna",
                 role: "Project Manager",
                 expertise: "Agile Certified",
-                img: "/img/team/restu.jpeg",
+                img: "/img/team/pm.jpg",
               },
             ].map((member, idx) => (
               <motion.div
@@ -320,7 +311,7 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Visi Misi - DENGAN REACT ICON */}
+          {/* Visi Misi - DENGAN REACT ICON (VISI & MISI YANG DIPERBARUI) */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -334,11 +325,12 @@ export default function About() {
                   Visi
                 </h3>
               </div>
-              <p className="text-gray-600 dark:text-gray-400 text-sm pl-1">
-               Kami tidak sekadar membangun solusi digital.
-Kami menciptakan sesuatu yang bertahan, diingat, dan tidak dapat diabaikan.
-Di tengah dunia yang penuh kebisingan, kami memilih untuk bergerak dalam presisi, tenang, terarah, dan berdampak.
-Aksawara Digital hadir untuk mendefinisikan ulang standar, bukan mengikutinya.
+              <p className="text-gray-600 dark:text-gray-400 text-sm pl-1 leading-relaxed">
+                Kami tidak sekadar membangun solusi digital. Kami menciptakan
+                sesuatu yang bertahan, diingat, dan tidak dapat diabaikan. Di
+                tengah dunia yang penuh kebisingan, kami memilih untuk bergerak
+                dalam presisi, tenang, terarah, dan berdampak. Aksawara Digital
+                hadir untuk mendefinisikan ulang standar, bukan mengikutinya.
               </p>
             </div>
 
@@ -350,20 +342,71 @@ Aksawara Digital hadir untuk mendefinisikan ulang standar, bukan mengikutinya.
                   Misi
                 </h3>
               </div>
-              <ul className="space-y-2 text-gray-600 dark:text-gray-400 text-sm">
+              <ul className="space-y-3 text-gray-600 dark:text-gray-400 text-sm">
                 <li className="flex items-start gap-2">
                   <MdCheckCircle className="text-green-500 mt-0.5 flex-shrink-0 text-lg" />
-                  <span>
-                    Solusi digital berkualitas dengan harga terjangkau
-                  </span>
+                  <div>
+                    <span className="font-bold text-gray-800 dark:text-white">
+                      Build with Precision
+                    </span>
+                    <br />
+                    <span>
+                      Membangun setiap solusi dengan perhitungan matang, detail
+                      yang terjaga, dan kualitas yang tidak bisa ditawar.
+                    </span>
+                  </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <MdCheckCircle className="text-green-500 mt-0.5 flex-shrink-0 text-lg" />
-                  <span>Mengutamakan kepuasan klien</span>
+                  <div>
+                    <span className="font-bold text-gray-800 dark:text-white">
+                      Deliver with Impact
+                    </span>
+                    <br />
+                    <span>
+                      Tidak sekadar menyelesaikan pekerjaan, tetapi memastikan
+                      setiap produk memberi dampak nyata bagi bisnis klien.
+                    </span>
+                  </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <MdCheckCircle className="text-green-500 mt-0.5 flex-shrink-0 text-lg" />
-                  <span>Terus berinovasi mengikuti perkembangan teknologi</span>
+                  <div>
+                    <span className="font-bold text-gray-800 dark:text-white">
+                      Move in Silence, Execute with Power
+                    </span>
+                    <br />
+                    <span>
+                      Kami tidak banyak bicara. Kami bekerja. Dan hasil kami
+                      yang akan membuktikan segalanya.
+                    </span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-2">
+                  <MdCheckCircle className="text-green-500 mt-0.5 flex-shrink-0 text-lg" />
+                  <div>
+                    <span className="font-bold text-gray-800 dark:text-white">
+                      Dominate Through Innovation
+                    </span>
+                    <br />
+                    <span>
+                      Terus berinovasi untuk tetap selangkah di depan, bukan
+                      mengikuti tapi menciptakannya.
+                    </span>
+                  </div>
+                </li>
+                <li className="flex items-start gap-2">
+                  <MdCheckCircle className="text-green-500 mt-0.5 flex-shrink-0 text-lg" />
+                  <div>
+                    <span className="font-bold text-gray-800 dark:text-white">
+                      Scale Without Limits
+                    </span>
+                    <br />
+                    <span>
+                      Membangun sistem yang siap berkembang tanpa batas, seiring
+                      pertumbuhan bisnis klien di tingkat global.
+                    </span>
+                  </div>
                 </li>
               </ul>
             </div>
