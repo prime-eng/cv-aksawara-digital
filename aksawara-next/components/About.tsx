@@ -190,7 +190,7 @@ export default function About() {
                 name: "Restu Adam Wiguna",
                 role: "Project Manager",
                 expertise: "Agile Certified",
-                img: "/img/team/pm.jpg",
+                img: "/img/team/restu.jpeg",
               },
             ].map((member, idx) => (
               <motion.div
@@ -326,8 +326,10 @@ export default function About() {
                 </h3>
               </div>
               <p className="text-gray-600 dark:text-gray-400 text-sm pl-1">
-                Menjadi mitra digital terpercaya yang membantu bisnis di
-                Indonesia dan Luar Negeri bertransformasi.
+               Kami tidak sekadar membangun solusi digital.
+Kami menciptakan sesuatu yang bertahan, diingat, dan tidak dapat diabaikan.
+Di tengah dunia yang penuh kebisingan, kami memilih untuk bergerak dalam presisi, tenang, terarah, dan berdampak.
+Aksawara Digital hadir untuk mendefinisikan ulang standar, bukan mengikutinya.
               </p>
             </div>
 
