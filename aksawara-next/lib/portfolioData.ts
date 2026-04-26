@@ -106,57 +106,57 @@ export const portfolioData: PortfolioProject[] = [
       "Integrasi multiple payment gateway dan manajemen stok real-time yang akurat.",
     results:
       "Penjualan online meningkat 3x lipat dalam 6 bulan dengan rata-rata transaksi harian meningkat signifikan.",
-    thumbnail: "/img/portfolio/gambar1.jpeg",
+    thumbnail: "/img/portfolio/aplikasi-manajemen-umkm/gambar1.jpeg",
     images: [
       {
-        src: "/img/portfolio/gambar1.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar1.jpeg",
         alt: "Dashboard Login",
         caption: "Halaman Login yang digunakan oleh role Admin dan Kasir",
       },
       {
-        src: "/img/portfolio/gambar2.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar2.jpeg",
         alt: "Dashboard Utama",
         caption: "Dashboard Utama yang memantau Transaksi dan Manajemen Stok",
       },
       {
-        src: "/img/portfolio/gambar3.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar3.jpeg",
         alt: "Halaman Manajemen Stok",
         caption: "Halaman untuk pengaturan keluar masuk produk",
       },
       {
-        src: "/img/portfolio/gambar4.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar4.jpeg",
         alt: "Form Pengisian Data Produk",
         caption: "Form pengisian data produk Display toko",
       },
       {
-        src: "/img/portfolio/gambar5.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar5.jpeg",
         alt: "Laporan Keuangan Bulanan",
         caption: "Monitoring Keuangan Omset, Modal, dan Laba",
       },
       {
-        src: "/img/portfolio/gambar6.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar6.jpeg",
         alt: "Laporan Produk Terjual",
         caption:
           "Monitoring Keuangan Omset, Modal, dan Laba serta daftar produk yang terjual",
       },
       {
-        src: "/img/portfolio/gambar7.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar7.jpeg",
         alt: "Halaman Manajemen Pengguna",
         caption: "Manajemen Pengguna untuk mengatur registrasi karyawan",
       },
       {
-        src: "/img/portfolio/gambar8.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar8.jpeg",
         alt: "Daftar Karyawan",
         caption: "Daftar karyawan yang terdaftar dengan role Admin dan Kasir",
       },
       {
-        src: "/img/portfolio/gambar9.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar9.jpeg",
         alt: "Transaksi Kasir",
         caption:
           "Halaman Transaksi yang dilakukan oleh admin beserta dengan tampilan produk yang sudah di input",
       },
       {
-        src: "/img/portfolio/gambar10.jpeg",
+        src: "/img/portfolio/aplikasi-manajemen-umkm/gambar10.jpeg",
         alt: "Layout Struk",
         caption: "Layout Struk/Bukti Transaksi",
       },
