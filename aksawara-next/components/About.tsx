@@ -73,7 +73,7 @@ export default function About() {
             className="relative h-80 md:h-auto overflow-hidden"
           >
             <Image
-              src="/img/about/hero-about.jpg"
+              src="/img/logo-dark.png"
               alt="Aksawara Digital Team"
               fill
               className="object-cover"
