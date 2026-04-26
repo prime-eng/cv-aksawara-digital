@@ -8,10 +8,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaLinkedin,
-<<<<<<< HEAD
   FaWhatsapp,
-=======
->>>>>>> e670d1e (nambah sosmed dan portofolio)
   FaTiktok,
 } from "react-icons/fa";
 
@@ -93,7 +90,6 @@ export default function Contact() {
             <div className="flex flex-wrap gap-5">
               {/* Instagram - Gradien Pink/Orange */}
               <motion.a
-<<<<<<< HEAD
                 href={socialLinks.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,19 +97,10 @@ export default function Contact() {
                 className="p-3 rounded-full bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 transition-all duration-300 cursor-pointer
                 hover:bg-gradient-to-tr hover:from-pink-500 hover:to-orange-500 hover:text-white hover:border-transparent">
                 <FaInstagram className="text-xl" />
-=======
-                href="https://www.instagram.com/aksawaradigitalofficial/"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2 }}
-                className="p-3 rounded-full bg-gray-100 dark:bg-white/5 border hover:bg-blue-500 hover:text-white transition">
-                <FaInstagram />
->>>>>>> e670d1e (nambah sosmed dan portofolio)
               </motion.a>
 
               {/* Facebook - Biru Facebook (#1877F2) */}
               <motion.a
-<<<<<<< HEAD
                 href={socialLinks.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -121,20 +108,6 @@ export default function Contact() {
                 className="p-3 rounded-full bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 transition-all duration-300 cursor-pointer
                 hover:bg-[#1877F2] hover:text-white hover:border-transparent">
                 <FaFacebook className="text-xl" />
-=======
-                href="https://www.tiktok.com/@aksawaradigitalofficial" // ganti kalau beda
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.2 }}
-                className="p-3 rounded-full bg-gray-100 dark:bg-white/5 border hover:bg-blue-500 hover:text-white transition cursor-pointer">
-                <FaTiktok />
-              </motion.a>
-
-              <motion.a
-                whileHover={{ scale: 1.2 }}
-                className="p-3 rounded-full bg-gray-100 dark:bg-white/5 border hover:bg-blue-500 hover:text-white transition">
-                <FaFacebook />
->>>>>>> e670d1e (nambah sosmed dan portofolio)
               </motion.a>
 
               {/* LinkedIn - Biru LinkedIn (#0A66C2) */}
