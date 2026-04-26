@@ -7,7 +7,7 @@ import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { portfolioData } from "@/lib/portfolioData";
 
-/* ================= FIX VARIANTS ================= */
+/* ================= VARIANTS ================= */
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 40 },
@@ -34,13 +34,17 @@ const staggerContainer: Variants = {
   },
 };
 
+/* ✅ FIX DISINI */
 const cardHover: Variants = {
-  rest: { scale: 1, y: 0 },
+  rest: {
+    scale: 1,
+    y: 0,
+  },
   hover: {
     scale: 1.02,
     y: -5,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       stiffness: 300,
       damping: 20,
     },
@@ -90,11 +94,7 @@ export default function PortfolioDetailPage() {
             <motion.div
               key={idx}
               variants={imageCardVariants}
-              initial="hidden"
-              animate="visible"
-              whileHover={{
-                scale: 1.03,
-              }}
+              whileHover={{ scale: 1.03 }}
               className="group cursor-pointer"
               onClick={() =>
                 setSelectedImage({ src: image.src, alt: image.alt })
@@ -123,7 +123,7 @@ export default function PortfolioDetailPage() {
                 </div>
               </motion.div>
 
-              {/* ✅ CAPTION (FIX: gak hilang lagi) */}
+              {/* ✅ CAPTION AMAN */}
               {image.caption && (
                 <p className="text-center text-gray-500 dark:text-gray-400 mt-2 text-sm">
                   {image.caption}
@@ -144,7 +144,7 @@ export default function PortfolioDetailPage() {
           <motion.div
             initial={{ scale: 0.8 }}
             animate={{ scale: 1 }}
-            transition={{ type: "spring", stiffness: 200 }}
+            transition={{ type: "spring" as const, stiffness: 200 }}
             className="relative max-w-5xl w-full px-4"
             onClick={(e) => e.stopPropagation()}>
             <img
@@ -159,7 +159,6 @@ export default function PortfolioDetailPage() {
               ✕
             </button>
 
-            {/* ✅ ALT TEXT */}
             {selectedImage.alt && (
               <p className="text-white text-center mt-3">{selectedImage.alt}</p>
             )}
